@@ -1,5 +1,7 @@
-<h2>Tiled-ImageMask-Dataset-ORCA (2024/04/28)</h2>
-
+<h2>Tiled-ImageMask-Dataset-ORCA (Updated: 2024/04/28)</h2>
+<li>2024/04/28: Added <a href="https://drive.google.com/file/d/1dke6ZBcC5tbFBne0yyz2IdQiwfK4n5uH/view?usp=sharing">
+Tiled-ORCA-ImageMask-Dataset-V2.zip (Random-Shuffled Version)</a></li>
+<br>
 This is a simple Tiledly-Splitted ImageMask Dataset for Oral Cancer Image Segmentation.<br>
 The dataset used here has been taken from the following web-site<br>
 <b>ORCA: ORal Cancer Annotated dataset</b><br>
@@ -23,11 +25,19 @@ use for training of an ordinary segmentation model.<br>
 </tr>
 </table>
 <br>
+
 <b>
 You can download our 512x512 tiledly-splitted <b>Tiled-ORCA-ImageMask-Dataset</b> from the google drive
+
+<li>
 <a href="https://drive.google.com/file/d/1ILujbAFlycxGDieCR-TAi-Iu0afwKnNi/view?usp=sharing">
-Tiled-ORCA-ImageMask-Dataset-V1.zip
+Tiled-ORCA-ImageMask-Dataset-V1.zip</a>
+
+<li>
+<a href="https://drive.google.com/file/d/1ILujbAFlycxGDieCR-TAi-Iu0afwKnNi/view?usp=sharing">
+Tiled-ORCA-ImageMask-Dataset-V2.zip (Random-Shuffled Version)
 </a>
+</li>
 </b>
 <br>
 
@@ -130,4 +140,17 @@ As shown below, each image and mask is splitted to 100-tiles of 512x512 pixel-si
 Dataset Statictics <br>
 
 <img src="./Tiled-ORCA-ImageMask-Dataset-V1_Statistics.png" width="512" height="auto"><br>
+
+
+<h3>4. Random Shuffling </h3>
+By exchanging the order of the master-splitting by <a href="./split_master.py">split_master.py</a> 
+and the splitting-tiles operations by <a href="./ImageMaskTilesSplitter.py">ImageMaskTilesSplitter.py</a>, 
+we created <a href="https://drive.google.com/file/d/1dke6ZBcC5tbFBne0yyz2IdQiwfK4n5uH/view?usp=sharing">
+Tiled-ORCA-ImageMask-Dataset-V2.zip (Random-Shuffled Version).</a>
+<hr>
+Randomized train images sample<br>
+<img src="./asset/randomized_train_images.png"  width="1024" height="auto"><br>
+Randomized train masks sample<br>
+<img src="./asset/randomized_train_masks.png"  width="1024" height="auto"><br>
+
 

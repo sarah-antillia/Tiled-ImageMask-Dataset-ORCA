@@ -161,6 +161,9 @@ cython_debug/
 
 Tiled-ORCA-ImageMask-Dataset-V1/
 Tiled-ORCA-ImageMask-Dataset-V1.zip
+Tiled-ORCA-ImageMask-Dataset-V2/
+Tiled-ORCA-ImageMask-Dataset-V2.zip
+
 valid/
 test/
 ORCA_master/
