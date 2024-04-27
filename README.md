@@ -80,6 +80,8 @@ This script splits *png and *_mask.png files in <b>valid</b> folder into images 
 
 To create these new dataset <b>ORCA_master</b> with images and masks sub folders, all images and masks of the original dataset 
 are resized to be 5120x5120 pixel-size from the original 4500x4500 pixel-size, and saved as jpg files.<br>
+The pixel-size 5120,  which is larger than the original size 4500,  is selected to become an integral multiple of a tile-pixel-size 512
+which is the size we would like to create.<br>
 
 <h3>3. Split ORCA master</h3>
 
@@ -143,8 +145,8 @@ Dataset Statictics <br>
 
 
 <h3>4. Random Shuffling </h3>
-By exchanging the order of the master-splitting by <a href="./split_master.py">split_master.py</a> 
-and the splitting-tiles operations by <a href="./ImageMaskTilesSplitter.py">ImageMaskTilesSplitter.py</a>, 
+By exchanging the order of the master-splitting operation by <a href="./split_master.py">split_master.py</a> 
+and the splitting-tiles operation by <a href="./ImageMaskTilesSplitter.py">ImageMaskTilesSplitter.py</a>, 
 we created <a href="https://drive.google.com/file/d/1dke6ZBcC5tbFBne0yyz2IdQiwfK4n5uH/view?usp=sharing">
 Tiled-ORCA-ImageMask-Dataset-V2.zip (Random-Shuffled Version).</a>
 <hr>
