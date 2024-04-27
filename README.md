@@ -120,7 +120,7 @@ Please run the following command for Python <a href="./ImageMaskTilesSplitter.py
 </pre>
 <hr>
 As shown below, each image and mask is splitted to 100-tiles of 512x512 pixel-size respectively.<br>
-
+<br>
 <b>Tiled train/image sample</b><br>
 <img src="./asset/tiled_train_images.png" width="1024" height="auto"><br>
 <b>Tiled train/mask sample</b><br>
