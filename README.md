@@ -105,7 +105,7 @@ Please run the following command for Python <a href="./ImageMaskTilesSplitter.py
 <pre>
 >python ImageMaskTilesSplitter.py
 </pre>
-, by which tiledly splitted  <b>./Tiled-ORCA-ImageMask-Dataset-V1</b>.<br>
+, by which tiledly splitted  <b>./Tiled-ORCA-ImageMask-Dataset-V1</b> is created as shown below.<br>
 <pre>
 ./Tiled-ORCA-ImageMask-Dataset-V1
 ├─test
